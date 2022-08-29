@@ -8,5 +8,5 @@ The goal of this project is to create a sign up form similiar to [this design](h
 
 ## Result
 
-[https://piotrfijol.github.io/top-sign-up](Preview of the results)
+[Preview of the results](https://piotrfijol.github.io/top-sign-up)
 
