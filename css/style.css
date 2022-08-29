@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+body {
+    background-color: #1f2730;
+    font-family: Inter;
+    color: #FFF;
+    font-size: 16px;
+}
+
 .container {
     display: flex;
     height: 100vh;
@@ -39,4 +46,20 @@
     font-family: Italiana, serif;
     font-size: 72px;
     font-weight: 500;
+}
+
+.signup {
+    padding: 50px 90px;
+}
+
+.signup-title {
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0 0 15px -20px;
+}
+
+.signup-benefits {
+    margin: 15px;
+    margin-left: 25px;
+    color: #C6C6C6;
 }
