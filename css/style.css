@@ -2,3 +2,40 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.bg {
+    width: 38vw;
+    height: 100%;
+    background-image: url('/img/bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.logo-bg {
+    width: 100%;
+    height: 5em;
+    background-color: rgba(0, 0, 0, .35);
+    position: absolute;
+    z-index: 1;
+}
+
+.bg h1 {
+    width: 100%;
+    color: #FFF;
+    position: absolute;
+    z-index: 2;
+    font-family: Italiana, serif;
+    font-size: 64px;
+    font-weight: 500;
+}
