@@ -40,30 +40,32 @@
                     </hgroup>
                     <div class="col">
                         <div class="row">
-                            <label for="first-name">First name</label>
-                            <input type="text" id="first-name" name="first-name">
+                            <div class="label-wrapper">
+                                <label for="first-name">First name</label>
+                            </div>
+                            <input type="text" id="first-name" minlength="1" maxlength="50" name="first-name">
                         </div>
                         <div class="row">
-                            <label for="last-name">Last name</label>
-                            <input type="text" id="last-name" name="last-name">
+                            <div class="label-wrapper"><label for="last-name">Last name</label></div>
+                            <input type="text" id="last-name" minlength="1" maxlength="50" name="last-name">
                         </div>
                         <div class="row">
-                            <label for="">Phone number</label>
-                            <input type="tel" id="phone-number" name="phone-number">
+                            <div class="label-wrapper"><label for="">Phone number</label></div>
+                            <input type="tel" id="phone-number" required name="phone-number">
                         </div>
                     </div>
                     <div class="col">
                         <div class="row">
-                            <label for="login">Login</label>
-                            <input type="text" id="login" name="login">
+                            <div class="label-wrapper"><label for="login">Login</label></div>
+                            <input type="text" id="login" required minlength="8" maxlength="16" name="login">
                         </div>
                         <div class="row">
-                            <label for="password">Password</label>
-                            <input type="password" id="password" name="password">
+                            <div class="label-wrapper"><label for="password">Password</label></div>
+                            <input type="password" id="password" minlength="8" required name="password">
                         </div>
                         <div class="row">
-                            <label for="repeat-password">Repeat password</label>
-                            <input type="password" id="repeat-password" name="repeat-password">
+                            <div class="label-wrapper"><label for="repeat-password">Repeat password</label></div>
+                            <input type="password" id="repeat-password" maxlength="24" required name="repeat-password">
                         </div>
                     </div>
                 </div>
