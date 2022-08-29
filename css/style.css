@@ -19,7 +19,7 @@ body {
     width: 40.36vw;
     min-width: 700px;
     height: 100%;
-    background-image: url('./img/bg.gif');
+    background-image: url('../img/bg.gif');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
