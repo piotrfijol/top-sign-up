@@ -16,6 +16,7 @@ body {
 }
 
 .bg {
+    width: 40.36vw;
     min-width: 700px;
     height: 100%;
     background-image: url('/img/bg.gif');
@@ -138,4 +139,28 @@ label.focused {
     font-size: 10px;
     top: .35em;
     left: 1em;
+}
+
+.btn {
+    display: block;
+    width: 250px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 16px;
+    padding: .6em 4em;
+    background-color: #17682E;
+    border: none;
+    color: #FFF;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn[type="submit"] + p {
+    text-align: center;
+    margin-top: .6em;
+    font-size: 12px;
+}
+
+.btn[type="submit"] + p > a {
+    color: #CFCFCF;
 }
