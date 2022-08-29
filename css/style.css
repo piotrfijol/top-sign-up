@@ -80,6 +80,7 @@ body {
 .form-container {
     margin-top: -20px;
     width: 100%;
+    max-width: 2420px;
     background-color:rgba(0, 0, 0, .35);
     box-sizing: border-box;
     padding: 30px 50px;
@@ -162,5 +163,16 @@ label.focused {
 }
 
 .btn[type="submit"] + p > a {
+    color: #CFCFCF;
+}
+
+.art-author {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 12px;
+}
+
+.art-author a {
     color: #CFCFCF;
 }
